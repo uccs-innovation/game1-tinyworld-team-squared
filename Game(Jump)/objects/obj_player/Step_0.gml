@@ -89,7 +89,7 @@ if (!player_dead) {
 
 
 /// Sprite Animations
-jump_speed = 50;
+//jump_speed = 50;
 
 	if (vsp < 0){
 		sprite_index = sp_PlayerJump;
