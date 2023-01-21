@@ -1,0 +1,4 @@
+Level Design:
+When creating levels, either make sure an obj_game_controller exists so the room resets when the
+player dies, or make sure one in a previous room is labeled persistent so it contenues to exist 
+when swithing rooms

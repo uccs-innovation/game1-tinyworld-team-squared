@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-player_dead = false;
-death_countdown_MAX = 120;
-death_countdown = 0;
+lifespan = 30 * 60;
+move_speed = 2;
+count = 0;
