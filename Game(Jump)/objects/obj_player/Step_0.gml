@@ -88,4 +88,18 @@ if (!player_dead) {
 }
 
 
+/// Sprite Animations
+jump_speed = 50;
+
+	if (vsp < 0){
+		sprite_index = sp_PlayerJump;
+	} else {
+		sprite_index = sp_PlayerIdle;
+	}
+	
+	if (x < mouse_x){
+		facing = 1;
+	} else {
+		facing = -1;
+	}
 

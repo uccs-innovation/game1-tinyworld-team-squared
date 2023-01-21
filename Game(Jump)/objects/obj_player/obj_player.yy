@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_player",
   "spriteId": {
-    "name": "sp_test1",
-    "path": "sprites/sp_test1/sp_test1.yy",
+    "name": "sp_PlayerIdle",
+    "path": "sprites/sp_PlayerIdle/sp_PlayerIdle.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,6 +28,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_hazard","path":"objects/obj_hazard/obj_hazard.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

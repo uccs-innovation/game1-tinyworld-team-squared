@@ -20,3 +20,6 @@ current_HP = MAX_HP; //Player's current Health
 is_invincible = false;
 i_count = 0; //counter
 player_dead = false;
+
+//Animation
+facing = 0;
