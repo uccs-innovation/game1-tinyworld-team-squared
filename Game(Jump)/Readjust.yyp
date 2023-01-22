@@ -5,8 +5,10 @@
   "resources": [
     {"id":{"name":"obj_hazard","path":"objects/obj_hazard/obj_hazard.yy",},"order":2,},
     {"id":{"name":"IMPORTANT INFO","path":"notes/IMPORTANT INFO/IMPORTANT INFO.yy",},"order":0,},
+    {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},"order":1,},
     {"id":{"name":"obj_hazard_moving_right","path":"objects/obj_hazard_moving_right/obj_hazard_moving_right.yy",},"order":1,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":10,},
     {"id":{"name":"obj_hazard_moving_up","path":"objects/obj_hazard_moving_up/obj_hazard_moving_up.yy",},"order":0,},
     {"id":{"name":"obj_hazard_moving_left","path":"objects/obj_hazard_moving_left/obj_hazard_moving_left.yy",},"order":2,},
     {"id":{"name":"sp_test3","path":"sprites/sp_test3/sp_test3.yy",},"order":0,},
@@ -41,6 +43,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
+    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
