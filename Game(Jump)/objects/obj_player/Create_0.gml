@@ -23,3 +23,6 @@ player_dead = false;
 
 //Animation
 facing = 0;
+
+// Audio
+collisionSoundPlaying = false;

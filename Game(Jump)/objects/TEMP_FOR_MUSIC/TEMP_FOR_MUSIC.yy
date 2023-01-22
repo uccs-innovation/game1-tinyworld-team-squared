@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_solid_object",
+  "name": "TEMP_FOR_MUSIC",
   "spriteId": {
-    "name": "sp_test2",
-    "path": "sprites/sp_test2/sp_test2.yy",
+    "name": "sp_PlayerJump",
+    "path": "sprites/sp_PlayerJump/sp_PlayerJump.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

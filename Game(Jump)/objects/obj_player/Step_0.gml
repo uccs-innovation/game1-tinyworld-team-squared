@@ -103,3 +103,18 @@ if (!player_dead) {
 		facing = -1;
 	}
 
+
+/// Sound Effects
+// Jump sfx
+ if (jumping){
+	audio_play_sound(snd_Jump, 10, false);
+ }
+ 
+ // Impact sfx
+ if (collisionSoundPlaying == false && place_meeting(x + hsp, y + vsp, obj_solid_object)){
+	audio_play_sound(snd_Collision, 5, false, 1, 0, random_range(2, 5));
+	collisionSoundPlaying = true;
+} 
+else if (!place_meeting(x + hsp, y + vsp, obj_solid_object)){
+	collisionSoundPlaying = false;
+}
