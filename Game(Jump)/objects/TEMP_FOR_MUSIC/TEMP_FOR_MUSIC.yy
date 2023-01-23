@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "TEMP_FOR_MUSIC",
-  "spriteId": {
-    "name": "sp_PlayerJump",
-    "path": "sprites/sp_PlayerJump/sp_PlayerJump.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

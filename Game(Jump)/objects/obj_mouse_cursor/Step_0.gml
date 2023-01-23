@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(instance_exists(obj_player))
+{
 x = mouse_x;
 y = mouse_y;
 dist = distance_to_object(obj_player);
@@ -19,3 +21,4 @@ if (dist > MAX_DIST_FROM_PLAYER) {
 
 x += hsp;
 y += vsp;
+}

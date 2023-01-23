@@ -1,4 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
-spawn_delay = 160;
-spawn_counter = 0;
+instance_destroy();
+obj_game_controller.player_dead = true;
+
+
+
+
+
+
+
+
+
+
+
+
+
