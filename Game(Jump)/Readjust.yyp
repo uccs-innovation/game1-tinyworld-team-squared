@@ -28,6 +28,7 @@
     {"id":{"name":"obj_mouse_cursor_menu","path":"objects/obj_mouse_cursor_menu/obj_mouse_cursor_menu.yy",},"order":1,},
     {"id":{"name":"sp_test2","path":"sprites/sp_test2/sp_test2.yy",},"order":1,},
     {"id":{"name":"snd_Level1Music","path":"sounds/snd_Level1Music/snd_Level1Music.yy",},"order":0,},
+    {"id":{"name":"obj_collectible","path":"objects/obj_collectible/obj_collectible.yy",},"order":12,},
     {"id":{"name":"obj_hazard_moving_down","path":"objects/obj_hazard_moving_down/obj_hazard_moving_down.yy",},"order":3,},
     {"id":{"name":"obj_solid_object","path":"objects/obj_solid_object/obj_solid_object.yy",},"order":1,},
     {"id":{"name":"obj_mouse_cursor","path":"objects/obj_mouse_cursor/obj_mouse_cursor.yy",},"order":0,},
