@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_healing_item",
   "spriteId": {
-    "name": "sp_test1",
-    "path": "sprites/sp_test1/sp_test1.yy",
+    "name": "spr_HealingCarrot",
+    "path": "sprites/spr_HealingCarrot/spr_HealingCarrot.yy",
   },
   "solid": false,
   "visible": true,
