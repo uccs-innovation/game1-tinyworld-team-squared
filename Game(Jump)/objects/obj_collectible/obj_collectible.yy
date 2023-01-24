@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_collectible",
   "spriteId": {
-    "name": "sp_test1",
-    "path": "sprites/sp_test1/sp_test1.yy",
+    "name": "spr_Carrot",
+    "path": "sprites/spr_Carrot/spr_Carrot.yy",
   },
   "solid": false,
   "visible": true,
