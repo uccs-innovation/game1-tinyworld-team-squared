@@ -10,6 +10,7 @@ if (is_invincible == false) {
 		player_dead = true;
 		obj_game_controller.player_dead = true;
 		instance_destroy(obj_mouse_cursor); //dependent object destruction DO NOT REMOVE
+		obj_game_controller.player_score = 0;
 		instance_destroy();
 	}
 }

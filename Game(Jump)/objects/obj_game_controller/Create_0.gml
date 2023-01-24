@@ -3,3 +3,4 @@
 player_dead = false;
 death_countdown_MAX = 120;
 death_countdown = 0;
+player_score = 0;
