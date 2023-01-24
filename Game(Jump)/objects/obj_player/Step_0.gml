@@ -26,7 +26,7 @@ if (!player_dead) {
 		dir = point_direction(x, y, mouse_x, mouse_y);
 		if (dir >= 0 && dir <= 180) {
 			mult_for_jumping = distance_to_object(obj_mouse_cursor) / obj_mouse_cursor.MAX_DIST_FROM_PLAYER;
-			speed = jump_speed;
+			speed = jump_speed * mult_for_jumping;
 			direction = dir;
 			vsp = vspeed;
 			hsp = hspeed;
