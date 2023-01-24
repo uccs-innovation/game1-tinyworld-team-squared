@@ -3,14 +3,14 @@
 ///// HEALTH AND DAMAGE /////
 if (is_invincible) {
 	i_count++;
-	image_alpha = 0.5;
+	current_alpha = 0.5;
 	if (i_count > i_frames) {
 		is_invincible = false;
 		i_count = 0;
 	}
 }
 else {
-	image_alpha = 1;
+	current_alpha = 1;
 }
 
 
@@ -25,6 +25,7 @@ if (!player_dead) {
 	if (jumping && place_meeting(x, y+1, obj_solid_object)) {
 		dir = point_direction(x, y, mouse_x, mouse_y);
 		if (dir >= 0 && dir <= 180) {
+			mult_for_jumping = distance_to_object(obj_mouse_cursor) / obj_mouse_cursor.MAX_DIST_FROM_PLAYER;
 			speed = jump_speed;
 			direction = dir;
 			vsp = vspeed;
@@ -83,8 +84,8 @@ if (!player_dead) {
 	prev_v = vsp;
 	prev_h = hsp;
 	
-	clamp(x, 0, room_width);
-	clamp(y, 0, room_height);
+	x = clamp(x, 0, room_width);
+	//clamp(y, 0, room_height);  //USE TO KEE PLAYER IN ROOM Instead of killing them
 }
 
 

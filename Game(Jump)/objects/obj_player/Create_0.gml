@@ -14,12 +14,14 @@ damage_taken = -25;
 //Movement
 prev_v = 0
 prev_h = 0;
+mult_for_jumping = 1;
 
 //Health System
 current_HP = MAX_HP; //Player's current Health
 is_invincible = false;
 i_count = 0; //counter
 player_dead = false;
+current_alpha = 1;
 
 //Animation
 facing = 0;
