@@ -119,3 +119,10 @@ if (!player_dead) {
 else if (!place_meeting(x + hsp, y + vsp, obj_solid_object)){
 	collisionSoundPlaying = false;
 }
+
+//dev flight
+if (obj_game_controller.dev_flight == true)
+{
+	x = mouse_x;
+	y = mouse_y;
+}
