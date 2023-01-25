@@ -55,6 +55,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7C81C063","properties":[],"isDnd":false,"objectId":{"name":"obj_healing_item","path":"objects/obj_healing_item/obj_healing_item.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":19968.0,"y":7232.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_28B61CB5","properties":[],"isDnd":false,"objectId":{"name":"obj_healing_item","path":"objects/obj_healing_item/obj_healing_item.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7552.0,"y":5600.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_53BF1BE3","properties":[],"isDnd":false,"objectId":{"name":"obj_healing_item","path":"objects/obj_healing_item/obj_healing_item.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":11424.0,"y":5312.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1DADF72B","properties":[],"isDnd":false,"objectId":{"name":"obj_player_healthbar","path":"objects/obj_player_healthbar/obj_player_healthbar.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1408.0,"y":6624.0,},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Wall","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1A25F450","properties":[],"isDnd":false,"objectId":{"name":"obj_solid_object","path":"objects/obj_solid_object/obj_solid_object.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":140.99997,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":7552.0,},
@@ -286,6 +287,7 @@
     {"name":"inst_7C81C063","path":"rooms/rm_start/rm_start.yy",},
     {"name":"inst_28B61CB5","path":"rooms/rm_start/rm_start.yy",},
     {"name":"inst_53BF1BE3","path":"rooms/rm_start/rm_start.yy",},
+    {"name":"inst_1DADF72B","path":"rooms/rm_start/rm_start.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

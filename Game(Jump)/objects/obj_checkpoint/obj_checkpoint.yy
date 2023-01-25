@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_camera",
+  "name": "obj_checkpoint",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Information Tracking",
-    "path": "folders/Objects/Information Tracking.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }
