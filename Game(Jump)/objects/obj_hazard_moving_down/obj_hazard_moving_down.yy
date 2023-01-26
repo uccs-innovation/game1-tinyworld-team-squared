@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_hazard_moving_down",
   "spriteId": {
-    "name": "sp_test3",
-    "path": "sprites/sp_test3/sp_test3.yy",
+    "name": "spr_movingHazard",
+    "path": "sprites/spr_movingHazard/spr_movingHazard.yy",
   },
   "solid": false,
   "visible": true,

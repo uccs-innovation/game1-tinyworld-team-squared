@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_hazard",
   "spriteId": {
-    "name": "spr_hazard",
-    "path": "sprites/spr_hazard/spr_hazard.yy",
+    "name": "spr_movingHazard",
+    "path": "sprites/spr_movingHazard/spr_movingHazard.yy",
   },
   "solid": false,
   "visible": true,
