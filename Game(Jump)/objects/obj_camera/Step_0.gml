@@ -15,6 +15,3 @@ camera_set_view_pos(view_camera[0],x - camera_width/2, y - camera_height/1.5);
 }
 
 
-
-
-

@@ -49,6 +49,8 @@ if (!player_dead) {
 	
 	}
 
+
+//// Solid Object Collision ////
 	//Vertical Collision
 	if (place_meeting(x,y + vsp, obj_solid_object)) {
 			while (!place_meeting(x, y+sign(vsp), obj_solid_object)) {
@@ -78,6 +80,38 @@ if (!player_dead) {
 		hsp = 0;
 		vsp = 0;
 	}
+	
+//// Bouncy Object Collision ////
+	//Vertical Collision
+	if (place_meeting(x,y + vsp, obj_bouncy)) {
+			while (!place_meeting(x, y+sign(vsp), obj_bouncy)) {
+				y+= sign(vsp);
+			}
+			vsp = -vsp *0.9;
+	}
+
+	//Horizontal Collision
+	if (place_meeting(x + hsp, y, obj_bouncy)) {
+		while (!place_meeting(x+sign(hsp), y, obj_bouncy)) {
+			x += sign(hsp);
+		}
+		hsp = -hsp;
+	}
+
+	//Diagonal Collision
+	if (place_meeting(x + hsp, y + vsp, obj_bouncy)) {
+		while (!place_meeting(x + sign(hsp), y + sign(vsp), obj_bouncy)) {
+			if (!place_meeting(x + sign(hsp), y, obj_bouncy)) {
+				x += sign(hsp);
+			}
+			if (!place_meeting( x, y + sign(vsp), obj_bouncy)) {
+				y += sign(vsp);
+			}
+		}
+		hsp = -hsp;
+		vsp = -vsp * 0.75;
+	}
+	
 
 	x += hsp;
 	y += vsp;

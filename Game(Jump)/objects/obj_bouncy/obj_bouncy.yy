@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bouncy_sideways",
+  "name": "obj_bouncy",
   "spriteId": {
     "name": "sp_bouncy",
     "path": "sprites/sp_bouncy/sp_bouncy.yy",
