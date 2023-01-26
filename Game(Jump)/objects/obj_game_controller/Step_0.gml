@@ -6,3 +6,4 @@ if (player_dead) {
 		room_restart();
 	}
 }
+

@@ -3,9 +3,13 @@
 
 if( room == rm_victory)
 {
+	counting = false;
 	draw_sprite(spr_Carrot,0,500,225)
 	draw_text(600, 250, string(player_score) + string("/12"))	
 }
+
+
+
 
 
 

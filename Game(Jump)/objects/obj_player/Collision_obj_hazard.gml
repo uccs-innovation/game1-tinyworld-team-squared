@@ -11,6 +11,8 @@ if (is_invincible == false) {
 		obj_game_controller.player_dead = true;
 		instance_destroy(obj_mouse_cursor); //dependent object destruction DO NOT REMOVE
 		instance_destroy(obj_player_healthbar);
+		instance_destroy(obj_progress_bar);
+		instance_destroy(obj_checkpoint);
 		obj_game_controller.player_score = 0;
 		instance_destroy();
 	}

@@ -125,4 +125,8 @@ if (obj_game_controller.dev_flight == true)
 {
 	x = mouse_x;
 	y = mouse_y;
+	prev_h = 0;
+	prev_v = 0;
+	hsp = 0;
+	vsp = 0;
 }
