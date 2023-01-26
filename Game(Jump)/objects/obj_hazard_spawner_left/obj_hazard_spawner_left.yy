@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_hazard_spawner_left",
   "spriteId": {
-    "name": "sp_test4",
-    "path": "sprites/sp_test4/sp_test4.yy",
+    "name": "spr_spawner_left",
+    "path": "sprites/spr_spawner_left/spr_spawner_left.yy",
   },
   "solid": false,
   "visible": true,

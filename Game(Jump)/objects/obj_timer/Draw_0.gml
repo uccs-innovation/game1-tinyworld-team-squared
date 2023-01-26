@@ -6,3 +6,7 @@ if (instance_exists(obj_camera)) {
 	draw_set_color(c_red);
 	draw_text(timer_pos_x, timer_pos_y, timer / 60)
 }
+if (room == rm_victory)
+{
+	draw_text(550, 300, string("Time:") + string(timer/60))
+}

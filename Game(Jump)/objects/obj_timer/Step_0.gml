@@ -7,3 +7,7 @@ if (counting) {
 if (instance_exists(obj_camera)) {
 	y_offset = -(obj_camera.camera_height / 2) - 100
 }
+if (room == rm_victory)
+{
+	counting = false;
+}

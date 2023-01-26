@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_victory_entrance",
   "spriteId": {
-    "name": "sp_bouncy",
-    "path": "sprites/sp_bouncy/sp_bouncy.yy",
+    "name": "spr_victory_entrance",
+    "path": "sprites/spr_victory_entrance/spr_victory_entrance.yy",
   },
   "solid": false,
   "visible": true,

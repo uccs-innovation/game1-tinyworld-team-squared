@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_hazard",
   "spriteId": {
-    "name": "sp_test3",
-    "path": "sprites/sp_test3/sp_test3.yy",
+    "name": "spr_hazard",
+    "path": "sprites/spr_hazard/spr_hazard.yy",
   },
   "solid": false,
   "visible": true,

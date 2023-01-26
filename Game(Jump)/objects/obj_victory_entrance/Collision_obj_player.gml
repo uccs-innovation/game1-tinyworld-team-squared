@@ -2,7 +2,6 @@
 // You can write your code in this editor
 
 //sfx
-
 room_goto_next();
 
 audio_stop_all();

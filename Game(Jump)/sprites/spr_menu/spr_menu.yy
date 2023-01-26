@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Menu",
-    "path": "folders/Sprites/Menu.yy",
+    "path": "folders/Sprites/Level Design/Menu.yy",
   },
 }
