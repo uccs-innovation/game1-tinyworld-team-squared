@@ -8,6 +8,11 @@ if (is_invincible == false) {
 	
 	if (current_HP <= 0) {
 		player_dead = true;
+		
+		//sfx
+		audio_play_sound(snd_PlayerDeath, 5, false);
+		
+		
 		obj_game_controller.player_dead = true;
 		instance_destroy(obj_mouse_cursor); //dependent object destruction DO NOT REMOVE
 		instance_destroy(obj_player_healthbar);
