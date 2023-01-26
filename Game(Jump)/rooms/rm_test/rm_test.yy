@@ -18,7 +18,6 @@
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Mouse_cursor","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3FE53EE4","properties":[],"isDnd":false,"objectId":{"name":"obj_mouse_cursor","path":"objects/obj_mouse_cursor/obj_mouse_cursor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":480.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_70B1EA89","properties":[],"isDnd":false,"objectId":{"name":"TEMP_FOR_MUSIC","path":"objects/TEMP_FOR_MUSIC/TEMP_FOR_MUSIC.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.0,"y":160.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_538F9B16","properties":[],"isDnd":false,"objectId":{"name":"obj_collectible","path":"objects/obj_collectible/obj_collectible.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1120.0,"y":768.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3D120BB6","properties":[],"isDnd":false,"objectId":{"name":"obj_collectible","path":"objects/obj_collectible/obj_collectible.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1376.0,"y":800.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_368E6248","properties":[],"isDnd":false,"objectId":{"name":"obj_collectible","path":"objects/obj_collectible/obj_collectible.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":800.0,},
@@ -77,7 +76,6 @@
     {"name":"inst_6D02AD26","path":"rooms/rm_test/rm_test.yy",},
     {"name":"inst_75C888BA","path":"rooms/rm_test/rm_test.yy",},
     {"name":"inst_2457C22E","path":"rooms/rm_test/rm_test.yy",},
-    {"name":"inst_70B1EA89","path":"rooms/rm_test/rm_test.yy",},
     {"name":"inst_538F9B16","path":"rooms/rm_test/rm_test.yy",},
     {"name":"inst_3D120BB6","path":"rooms/rm_test/rm_test.yy",},
     {"name":"inst_368E6248","path":"rooms/rm_test/rm_test.yy",},
